@@ -1,0 +1,44 @@
+/* .main-container{
+    width:800px;
+    margin-right:auto;
+    margin-left:auto;
+} */
+
+
+.header-container{
+    display:flex;
+    justify-content:space-between
+}
+
+#logo{
+    width:150px;
+    height:150px;
+    border-radius:100px
+    
+}
+.links{
+    display:flex;
+    align-items:center;
+    
+}
+a{
+    text-decoration:none;
+    margin:20px
+
+}
+
+.sub-header{
+    display:flex;
+}
+
+.welcome{
+    text-align:center
+}
+
+.car2{
+    width:200px;
+    height:auto
+}
+.button{
+    text-align:center;
+}
