@@ -1,13 +1,21 @@
+body{
+    font-family:'Roboto', sans-serif;
+}
+
 /* .main-container{
     width:800px;
     margin-right:auto;
     margin-left:auto;
 } */
 
-
+header{
+     background-color:#1f2937
+}
 .header-container{
     display:flex;
-    justify-content:space-between
+    justify-content:space-between;
+    
+   
 }
 
 #logo{
@@ -19,11 +27,14 @@
 .links{
     display:flex;
     align-items:center;
+  
     
 }
 a{
     text-decoration:none;
-    margin:20px
+    margin:20px;
+    color:#e5e7eb;
+    font-size:18px
 
 }
 
@@ -32,13 +43,31 @@ a{
 }
 
 .welcome{
-    text-align:center
+    align-items:flex-start;
+    text-align:center;
+    color:#f9faf8;
+    font-weight:900;
+    font-size:48px;
+
 }
 
 .car2{
-    width:200px;
-    height:auto
+    width:400px;
+    height:auto;
 }
 .button{
     text-align:center;
+    background-color:#3882f6;
+    width:150px;
+    padding:10px;
+    border-radius:10px;
+    color:#f9faf8
+}
+#sub-header{
+    color:#f9faf8;
+    font-size:24px;
+}
+
+.g-spot{
+    margin-left:150px
 }
